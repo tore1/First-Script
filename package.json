@@ -3,7 +3,7 @@
   "version": "0.0.1",
   "private": true,
   "scripts": {
-    "test": "standard && node csv"
+    "test": "standard && rm -f data/ships.csv && node csv && [ \"$(head -n 2 data/ships.csv)\" == \"id,name\n1,睦月\" ]"
   },
   "devDependencies": {
     "standard": "^10.0.3"
