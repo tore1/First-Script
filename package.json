@@ -3,7 +3,7 @@
   "version": "0.0.1",
   "private": true,
   "scripts": {
-    "test": "standard"
+    "test": "standard && node csv"
   },
   "devDependencies": {
     "standard": "^10.0.3"
